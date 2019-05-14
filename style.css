@@ -1,0 +1,60 @@
+body 
+{
+    padding: 40px;
+    background-image:url("new-york-8k-video.png");
+    
+      background-repeat: no-repeat;
+      background-position:center;
+      background-size: 1000px,500px;
+}
+.dropdown-toggle, .dropdown-menu { width: 300px }
+.btn-group img { margin-right: 10px }
+.dropdown-toggle { padding-right: 50px }
+.dropdown-toggle .glyphicon { margin-left: 20px; margin-right: -40px }
+.dropdown-menu>li>a:hover { background: #f1f9fd } /* $search-blue */
+.dropdown-header { background: #ccc; font-size: 14px; font-weight: 700; padding-top: 5px; padding-bottom: 5px; margin-top: 10px; margin-bottom: 5px }
+.navbar {
+    text-transform:uppercase;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 500;
+    color:blue;
+    background-color:white;
+}
+
+#searchbar{
+ 
+    text-align: center
+        
+}
+
+#trains{
+    position: fixed;
+    padding-left:420px;
+    padding-top: 240px
+    
+}
+#down-icon{
+    padding-left: 20px;
+}
+#mta-logo,#mta-logo1{
+    width:50px;
+    height: 50px
+}
+
+#results-23:hover{
+   
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+}
+
+#result-pic{
+     width:50px;
+    height: 50px 
+}
+
+#searchbtn{
+   
+    padding-left: 45px;
+   
+    padding-top: 20px;
+}
